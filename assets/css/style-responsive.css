@@ -1,0 +1,554 @@
+/* mayor a 1440px */
+@media screen and (min-width: 1440px) {
+  .texto-ini{
+    top: 465px;
+  }
+  .arrow-down{
+    top: 395px;
+  }
+}
+
+/* menor a 1309 */
+@media screen and (max-width: 1309px) {
+  .arrow-down{
+    top: 255px;
+  }
+}
+
+/* menor a 1240px */
+@media screen and (max-width: 1240px) {
+  .txt2_sports{
+    margin-left: 20px;
+  }
+  .bloque3-sports {
+    left: -20px;
+  }
+  .texto-ini{
+    top: 460px;
+  }
+  .arrow-down {
+    top: 375px;
+  }
+}
+
+/* menor a 1124px */
+@media screen and (max-width: 1124px) {
+  .txt1_sports {
+    margin-left: 10px;
+  }
+  .tit_sports{
+    margin-left: 10px;
+  }
+}
+
+/* menor a 1000 */
+@media screen and (max-width: 1000px) {
+  .img-serv{
+    display: none;
+  }
+  .barra_sports {
+    height: 125vh;
+  }
+  .txt-gami {
+    text-align: center;
+    top:75px;
+  }
+
+}
+
+/* mayor a 992 */
+@media screen and (min-width: 992px) {
+  .show-movil{
+    display: none;
+  }
+}
+
+/* menor a 992 inicia tablet - movil*/
+@media (max-width: 991px) {
+  #header {
+    top: 10px;
+  }
+  #header.header-scrolled {
+    height: 140px;
+  }
+  .mobile-nav{
+    width: calc(100% - 205px);
+  }
+  .menu--adsila{
+    margin-top: 40px;
+  }
+  .menu--adsila li{
+    margin-bottom: 4em;
+  }
+  .redes-mobile{
+    top: 20px;
+  }
+  #ini .container {
+    padding-top: 70px;
+    padding-bottom: 59px;
+  }
+  .logo-mobile {
+    top: -30px;
+    width: 250px;
+  }
+  .mobile-nav-toggle{
+    top: 55px;
+  }
+  .comillas1{
+    margin-bottom: 20px;
+  }
+  .comillas2_es{
+    display: none;
+  }
+  .fondo_esports{
+    background: url(../img/pleca_negra.png);
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+    padding: 150px 130px 50px;
+    min-height: 1500px;
+    position: relative;
+  }
+  .cont_pleca_jersey{
+    margin: 60px 30px;
+  }
+  .img-gami{
+    display: none;
+  }
+  .txt-gami {
+    top: -60px;
+}
+
+  #gamification {
+    position: inherit;
+    height: auto;
+}
+  .carousel-item{
+    width: 50%;
+    margin-left: 24%;
+  }
+  .texto-ini{
+    top: 300px;
+    font-size: 44px;
+    padding-left: 9%;
+  }
+
+  .arrow-down{
+    top: 320px;
+    margin-left: 50%;
+  }
+  .txt-serv{
+    margin: 60px 0;
+  }
+  .sports {
+    padding: 60px 5px;
+  }
+  .bloque1-sports{
+    padding:5px 0;
+  }
+  .bloque2-sports {
+    text-align: center;
+    padding: 90px 30px;
+  }
+  .bloque2-sports img{
+    width: 100%;
+  }
+  .bloque3-sports {
+    padding: 0% 4% 0% 46px;
+    top: 127px;
+    text-align: left;
+  }
+  .centrar{
+    text-align: center;
+  }
+
+  .barra_sports {
+    height: 130vh;
+    background-size: cover;
+  }
+  .txt1_sports {
+    margin-left: 0;
+  }
+  .bg-naranja{
+    height: 120px;
+  }
+  .txt-marcas {
+    font-size: 17px;
+  }
+  .form-contacto{
+    padding: 0% 0% 17% 9%;
+  }
+
+  .btn-posicion {
+    margin-left: auto;
+    text-align: center;
+  }
+  .msg{
+    padding: 0 12px;
+  }
+  .input{
+    max-width: 100% !important;
+  }
+  .logo-footer{
+    text-align: center;
+    left: auto;
+  }
+  .txt1-terminos {
+    padding: 20px 50px;
+  }
+  .txt1-politicas {
+    padding: 20px 50px;
+  }
+  .terminos-footer{
+    text-align: center;
+    left: auto;
+  }
+  
+  .politicas-footer{
+    text-align: center;
+    left: auto;
+  }
+
+  .flechas-ini{
+    width: 35px;
+    top: 180px;
+  }
+}
+
+/* menor a 882px */
+@media (max-width: 882px) {
+  .txt-regular {
+    font-size: 20px;
+  }
+  .texto-ini{
+    top: 235px;
+  }
+  .arrow-down{
+    top: 325px;
+    margin-left: 48%;
+  }
+
+}
+
+/* menor a 859px */
+@media (max-width: 859px) {
+  .mobile-nav {
+    width: calc(100% - 290px);
+  }
+  .menu--adsila {
+    margin-top: 105px;
+  }
+}
+
+/* menor a 854px */
+@media (max-width: 854px) {
+  #header.header-scrolled{
+    height: 105px;
+  }
+  .logo-mobile {
+    width: 165px;
+  }
+  .mobile-nav-toggle {
+    top: 35px;
+  }
+  .bloque1-sports {
+    padding: 5px 25px 0 0;
+  }
+}
+
+/* mayor a 801px */
+@media screen and (min-width: 801px) {
+  .mobile-nav a{
+    margin: 0 0 2em;
+  }
+}
+/* menor a 770px */
+@media screen and (max-width: 770px) {
+  .barra_sports {
+    height: 190vh;
+  }
+  .terminos-header {
+    height: 340px;
+  }
+  .fondo_esports{
+    padding: 150px 60px 50px;
+  }
+  .texto-ini {
+    top: 325px;
+    font-size: 46px;
+    padding-left: 0;
+  }
+  .arrow-down {
+    top: 315px;
+    margin-left: 46%;
+  }
+}
+/* menor a 640px */
+@media (max-width: 640px) {
+  .mobile-nav{
+    width: calc(100% - 150px);
+  }
+  .txt-about{
+    font-size: 20px;
+  }
+  .barra_sports {
+    height: 180vh;
+  }
+  .inf-contacto {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .fondo_esports{
+    padding: 95px 40px 0;
+  }
+  .texto-ini{
+    padding: 0 10px;
+    font-size: 32px;
+    top: 330px;
+  }
+  .arrow-down {
+    top: 450px;
+  }
+  .txt-serv{
+    padding: 10px;
+  }
+  .txt-azulF{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .terminos-header {
+    height: 370px;
+  }
+  .arrow-down{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 556px) {
+  .mobile-nav{
+    width: calc(100% - 55px);
+  }
+  .menu--adsila{
+    margin-top: 20px;
+    height: 71%;
+  }
+  .menu--adsila li{
+    margin-bottom: 3em;
+  }
+  .redes-mobile{
+    top: 20px;
+  }
+  .logo-mobile {
+    top: -20px;
+    width: 150px;
+  }
+  .txt-about{
+    font-size: 17px;
+    padding: 80px 5px;
+    margin-left: 0;
+  }
+  .barra_sports {
+    height: 228vh;
+  }
+  
+  #clientes {
+    padding: 0 9%;
+  }
+
+  .texto-ini {
+    padding: 20px;
+    top: 345px;
+    font-size: 33px;
+  }
+  .arrow-down {
+    top: 340px;
+    margin-left: 43%;
+  }
+  .form-contacto {
+    padding: 65px 12px;
+  }
+  .cont_pleca_jersey img{
+    width: 100%;
+  }
+}
+@media (max-height: 550px) {
+  .barra_sports {
+    height: 228vh;
+  }
+  .txt-serv {
+    padding: 3px;
+  }
+  .txt-azulF {
+    font-size: 18px;
+  }
+}
+
+@media (max-height: 500px) {
+  .logo-mobile{
+    width: 200px;
+  }
+  #ini {
+    height: auto;
+  }
+  #ini .container {
+    padding-top: 245px;
+    padding-bottom: 60px;
+  }
+  .arrow-down {
+    top: 300px;
+    width: 100%;
+  }
+  .barra_sports {
+    height: 228vh;
+  }
+  
+}
+
+
+@media (max-width: 425px) {
+  .barra_sports {
+    height: 235vh;
+}
+  .texto-ini {
+    padding-top: 0%;
+    top: 260px;
+  }
+  .arrow-down {
+    top: 300px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .txt-serv {
+    padding: 3px;
+  }
+  .txt-azulF {
+    font-size: 14px;
+  }
+}
+/*                 ___   MOBILE  350 a 384    ____                */
+@media screen and (min-width: 350px) and (max-width: 384px){
+  .mobile-nav{
+    width: 315px;
+  }
+  .menu--adsila {
+    margin-top: 60px;
+  }
+  .logo-mobile {
+    top: -20px;
+    width: 140px;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .fb-mobile {
+    left: 38px;
+  }
+  .tw-mobile {
+    left: 93px;
+  }
+  .ins-mobile{
+    left: 160px;
+  }
+  .lnkin-mobile{
+    left: 220px;
+  }
+  .terminos-mobile{
+    left: -19px;
+  }
+  .politicas-mobile{
+    left: 137px;
+  }
+  .txt-rojo{
+    font-size: 15px;
+  }
+  .barra_sports {
+    height: 260vh;
+  }
+  .txt-regular {
+    font-family: 'montserrat-regular';
+    font-size: 20px;
+  }
+  .txt-regular strong{
+    font-family: 'Montserrat-Bold'; 
+  }
+  .fondo_esports {
+    padding: 95px 25px 0;
+  }
+  .txt-rojo {
+    font-size: 16px;
+}
+}
+
+/*                 ___   MOBILE  320    ____                */
+@media screen and (max-width: 320px){
+  .mobile-nav{
+    width: 310px;
+  }
+  .redes-mobile{
+    height: 30vh;
+  }
+  .fb-mobile{
+    left: 129px;
+  }
+  .tw-mobile{
+    left: 190px;
+  }
+  .terminos-mobile{
+    left: -20px;
+    width: 172px;
+  }
+  .politicas-mobile{
+    left: 109px;
+  }
+  #header.header-scrolled {
+    height: 100px;
+  }
+  .logo-mobile {
+    width: 130px;
+  }
+  .texto-ini{
+    top: 290px;
+    font-size: 25px;
+  }
+  .arrow-down {
+    margin-left: 0;
+    left: 0;
+    top: 340px;
+    width: 100%;
+    text-align: center;
+  }
+  .txt-marcas {
+    font-size: 14px;
+  }
+  .barra_sports {
+    height: 340vh;
+  }
+  .txt-azulF {
+    font-size: 12px;
+  }
+  .fondo_esports {
+    padding: 95px 25px 0;
+  }
+  .txt-rojo {
+    font-size: 16px;
+  }   
+}
+@media screen and (max-width: 300px){
+  .fondo_esports {
+    padding: 50px 14px 0;
+    min-height: 1300px;
+  }
+  .tit_sports{
+    font-size: 20px;
+  }
+  .txt1_sports{
+    font-size: 15px;
+  }
+  .txt2_sports {
+    margin-left: 0;
+    font-size: 15px;
+  }
+}
+
